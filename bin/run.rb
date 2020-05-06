@@ -10,3 +10,4 @@ puts "hello world"
 #t.integer :waiter_id
 # t.integer :host_id
 # t.integer :booking_id
+

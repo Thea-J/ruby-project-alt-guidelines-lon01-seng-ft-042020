@@ -1,7 +1,7 @@
 class Waiter < ActiveRecord::Base 
     belongs_to :restaurant
-    has_many :bookings
-    has_many :hosts, through: :bookings
+    # has_many :bookings
+    # has_many :hosts, through: :bookings
 
    #creates a new Waiter instance, when passed attributes & returns confirmation message
    #This method is functional but it belongs in the restaurant class -  
