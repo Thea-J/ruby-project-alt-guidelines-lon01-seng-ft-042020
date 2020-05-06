@@ -6,10 +6,3 @@ require_relative '../config/environment'
 puts "hello world"
 
 
-#rake db:create_migration NAME=create_waiters
-
-#rake db:migrate
-
-#rake db:create_migration NAME=create_bookings
-
-#rake db:create_migration NAME=create_hosts
