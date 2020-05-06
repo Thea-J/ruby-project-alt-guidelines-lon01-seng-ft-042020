@@ -1,4 +1,5 @@
 class Waiter < ActiveRecord::Base 
+    belongs_to :restaurant
     has_many :bookings
     has_many :hosts, through: :bookings
 
